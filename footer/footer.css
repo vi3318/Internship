@@ -1,0 +1,161 @@
+/* Update footer container padding */
+footer {
+  padding: 50px 0;
+  margin-bottom: 0px !important;
+}
+
+/* Update footer container styles */
+footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+/* Update footer column styles */
+footer .col-md-4 {
+  margin-bottom: 40px; 
+}
+
+/* Update footer column heading styles */ 
+footer .col-md-4 h2 {
+  margin-bottom: 20px;
+  font-size: 22px; /* Adjusted font size */
+  color: #fff; /* Set font color to white */
+  position: relative;
+  display: inline-block; /* Ensure inline-block for underline */
+}
+
+/* Add underline to footer column headings */
+footer .col-md-4 h2::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #C1282E; /* Use the same color for underline */
+}
+
+/* Update footer list item styles */
+footer ul {
+  padding: 0;
+}
+
+/* Update footer list item link styles */
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Add hover effect to footer list item links */
+footer ul li a:hover {
+  color: #fff; /* Use the same hover color */
+}
+
+/* Update copyright section styles */
+footer + .bg-dark {
+  padding: 8px 0;
+}
+
+/* Update footer column heading styles */
+footer .col-md-2 h2,
+footer .col-md-3 h2,
+footer .col-md-5 h2 {
+  margin-bottom: 20px; /* Set the desired margin here */
+  font-size: 22px; /* Adjusted font size */
+  color: #fff; /* Set font color to white */
+  position: relative;
+  display: inline-block; /* Ensure inline-block for underline */
+}
+
+footer .col-md-2 h2::after,
+footer .col-md-3 h2::after,
+footer .col-md-5 h2::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #C1282E; /* Use the same color for underline */
+}
+
+/* Increase font size of anchor tags within footer */
+footer a {
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
+/* Increase font size of paragraphs within footer */
+footer p {
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
+/* Add margin-top to the column */
+div.col-md-2.mb-4 {
+  margin-top: 50px; /* Adjust the value as needed */
+}
+
+/* Iphone 12 pro */
+@media (max-width: 420px) {
+  footer,
+  footer .container {
+    padding: 0;
+    margin: 0;
+  }
+
+  footer .col-md-5 {
+    text-align: center;
+  }
+  footer .col-md-5 .list-unstyled{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  footer .col-md-5 .list-unstyled li{
+    padding: 2px 0px;
+  }
+  footer .col-md-5 p{
+    display: none;
+  }
+  footer .col-md-2
+  {
+    display: none; /* Hide columns */
+  }
+
+
+  footer .col-md-5 h2 {
+    font-size: 18px; /* Adjusted font size */
+  }
+
+  footer .col-md-3 .mb-4{
+    display: none ;
+  }
+  footer .col-md-3 .list-unstyled {
+    display: flex;
+    justify-content: space-evenly; /* Change to space-around */
+    align-items: center;
+    text-align: center;
+    margin-left: 20px !important; /* Adjust spacing */
+    margin-right:20px !important; /* Adjust spacing */
+  }
+  
+  
+  footer .col-md-3 .list-unstyled #product1{
+    display: none;
+
+  }
+
+  footer a {
+    font-size: 16px; /* Adjusted font size */
+  }
+
+  footer p {
+    font-size: 16px; /* Adjusted font size */
+  }
+
+  h1.bg-dark.text-light {
+  font-size: 24px !important; /* Adjust the font size as needed */
+}
+
+}
