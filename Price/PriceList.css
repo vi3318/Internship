@@ -21,6 +21,8 @@ body, html {
     background-position: center;
 }
 
+
+
 .btn-primary {
     background-color: #ed5c61; /* Change button color */
     border-color: #C1282E;
@@ -787,3 +789,7 @@ a {
         padding-top: 0px !important;
       }
   }
+
+.one{
+  background-color: #f7f7f7;
+}

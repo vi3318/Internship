@@ -1162,19 +1162,34 @@ footer .footer-container .footer p {
 
 .btn-learn-more {
   position: absolute;
-  bottom: 0;
-  right: calc(50% + -45px); /* Default position */
+  bottom: 45px;
+  right: calc(50% + -545px); /* Default position */
   margin: 0;
   z-index: 999;
 }
+
+@media (max-width: 1025px) {
+  .btn-learn-more {
+    width: 124px !important;
+    height: 30px !important;
+    font-size: 15px !important;
+    right: calc(50%  + -380px); /* Adjust position for smaller screens */
+    bottom: 15px !important;
+      margin-bottom: 15px !important;  
+  padding-bottom: 3px !important;
+  }
+}
+
+
 
 @media (max-width: 821px) {
   .btn-learn-more {
     width: 120px !important;
     height: 30px !important;
-    font-size: 10px !important;
+    font-size: 14px !important;
     right: calc(50%  + -330px); /* Adjust position for smaller screens */
-      margin-bottom: 6px !important;  
+    bottom: 5px !important;
+      margin-bottom: 15px !important;  
   padding-bottom: 0px !important;
   }
 }
@@ -1183,11 +1198,12 @@ footer .footer-container .footer p {
 
 @media (max-width: 770px) {
   .btn-learn-more {
-    width: 80px !important;
+    width: 110px !important;
     height: 30px !important;
     font-size: 14px !important; 
-    right: calc(50%  + -300px); /* Adjust position for smaller screens */
-      margin-bottom: 3px !important;  
+    right: calc(50%  + -310px); /* Adjust position for smaller screens */
+    bottom: 5px !important;
+      margin-bottom: 15px !important;  
   padding-bottom: 0px !important;
   }
 }
@@ -1201,6 +1217,7 @@ footer .footer-container .footer p {
     font-size: 8px !important;
     padding-bottom: 0px !important;
     margin-bottom: 3px !important;
+    bottom: 0px !important;
       right: calc(50% + -150px); /* Adjust position for even smaller screens */
   }
 }
@@ -1211,11 +1228,23 @@ footer .footer-container .footer p {
     height: 20px !important;
     font-size: 8px !important;
     padding-bottom: 0px !important;
-    margin-bottom: 10px !important;
+    margin-bottom:  5px !important;
+    bottom: 0px !important;
       right: calc(50% + -170px); /* Adjust position for even smaller screens */
   }
 }
 
+@media (max-width: 365px) {
+  .btn-learn-more {
+    width: 60px !important;
+    height: 20px !important;
+    font-size: 8px !important;
+    padding-bottom: 0px !important;
+    margin-bottom:  5px !important;
+    bottom: 0px !important;
+      right: calc(50% + -160px); /* Adjust position for even smaller screens */
+  }
+}
 
 
 
