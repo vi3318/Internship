@@ -1210,11 +1210,11 @@ footer .footer-container .footer p {
 
 @media (max-width: 435px) {
   .btn-learn-more {
-    width: 50px !important;
-    height: 30px !important;
+    width: 60px !important;
+    height: 20px !important;
     font-size: 8px !important;
     padding-bottom: 0px !important;
-    margin-bottom: 3px !important;
+    margin-bottom: 10px !important;
       right: calc(50% + -150px); /* Adjust position for even smaller screens */
   }
 }

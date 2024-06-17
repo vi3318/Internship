@@ -782,7 +782,7 @@ a {
 .about-heading {
   padding-top:25px;
   padding-bottom: 10px;
-  padding-left: 175px;
+  padding-left: 195px;
   padding-right: 10px;
   margin-top: 80px;
   margin-bottom: 50px;
@@ -864,10 +864,16 @@ a {
     padding-right:0px !important;
     padding-bottom: 0px !important;
   }
+
+  .pt-5, .py-5 {
+    padding-top: 2rem !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
 }
 
 /* For medium devices */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 432px) {
   
   custom-content p {
     font-size: 14px; /* Adjust the font size as needed */
@@ -920,6 +926,12 @@ a {
 }
 .textdis {
     font-size: 14px; /* Adjusted font size for small devices */
+}
+
+.pt-5, .py-5 {
+  padding-top: 1rem !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
   
 }
