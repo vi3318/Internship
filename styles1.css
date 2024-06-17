@@ -554,6 +554,8 @@ footer .footer-container .footer p {
 	place-items: center;
   padding-bottom: 20px;
   margin-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 20px ;
 }
 
 .product-heading1{
@@ -592,23 +594,24 @@ footer .footer-container .footer p {
   top: calc(50% - 25px); /* Adjusted top position */
   height: 45px;
   width: 45px;
- background-image: url("./arrow4.png");
+ background-image: url("./left1.png");
  background-position: center;
  background-size: cover;
   cursor: pointer;
-  z-index: 999;
+  z-index: 99;
 }
+
 
 #slider-container1 .btn2 {
   position: absolute;
   top: calc(50% - 25px); /* Adjusted top position */
   height: 45px;
   width: 45px;
- background-image: url("./arrow3.png");
+ background-image: url("./right4.png");
  background-position: center;
  background-size: cover;
   cursor: pointer;
-  z-index: 999;
+  z-index: 99;
   transform: rotate(0deg);
 }
 
@@ -683,6 +686,12 @@ footer .footer-container .footer p {
     width: 45px !important;
     height: 45px !important;
   }
+  .product-heading1{
+    font-size: 23px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
 }
 /* Carousel */
 
