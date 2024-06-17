@@ -2,9 +2,6 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
-
-  /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
   --black-color: hsl(220, 24%, 12%);
   --black-color-light: hsl(220, 24%, 15%);
   --black-color-lighten: hsl(220, 20%, 18%);
@@ -1215,7 +1212,7 @@ footer .footer-container .footer p {
     font-size: 8px !important;
     padding-bottom: 0px !important;
     margin-bottom: 10px !important;
-      right: calc(50% + -150px); /* Adjust position for even smaller screens */
+      right: calc(50% + -170px); /* Adjust position for even smaller screens */
   }
 }
 
